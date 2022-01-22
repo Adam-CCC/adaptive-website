@@ -1,0 +1,33 @@
+#navbarContent{
+  background-color:#1FA181;
+}
+
+.footer-left a{
+  margin-right: 20px;
+}
+
+.footer-right a{
+  color: white;
+  margin-left: 20px;
+}
+
+
+.footer {
+  background-color: #08664F;
+  padding: 15px 0;
+}
+
+.container{
+  height: 100px;
+  width: 46px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.btn-wrapper-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
