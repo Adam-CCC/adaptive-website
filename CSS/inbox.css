@@ -4,13 +4,28 @@
 }
 
 #navbarContent{
-  background-color:#1FA181;
+  margin-left: 50px;
+}
+
+.col btn-primary{
+  background-color: aliceblue;
+}
+
+@media (max-width: 603px){
+  #adres1{
+    display: none;
+  }
+}
+
+@media (min-width: 603px){
+  #adres2{
+    display: none;
+  }
 }
 
 @media (max-width: 991px){
   #button1{
     display: none;
-    border-radius: 50%;
   }
 }
 
@@ -40,12 +55,10 @@
   width: 46px;
 }
 
-.text-justify {
-  text-align: justify;
+@media (max-width: 991px){
+  .nav-item{
+    display: none;
+  }
 }
 
-.btn-wrapper-end {
-  display: flex;
-  justify-content: flex-end;
-}
 
