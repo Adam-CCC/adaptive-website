@@ -7,6 +7,19 @@
   background-color:#1FA181;
 }
 
+@media (max-width: 991px){
+  #button1{
+    display: none;
+    border-radius: 50%;
+  }
+}
+
+@media (min-width: 991px){
+  #button2{
+    display: none;
+  }
+}
+
 .footer-left a{
   margin-right: 20px;
 }
