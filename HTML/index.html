@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<!--Вторая шапка-->  
+<!--Первая шапка-->  
     <div class="row">
         <div class="col-1"> 
             <nav class="navbar navbar-expand-lg navbar-light bg-#0CB38A;">
@@ -37,9 +37,38 @@
             </div>
         </div>
         <div class="col" id="button1">
-            <button type="button" class="btn btn-primary" style="background-color: #0DBC91;">Записаться на прием</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: #0DBC91;">Записаться на прием</button>
         </div>
     </div>
+    <!--Модальное окно-->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Запись на прием</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Ваш E-mail</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputName1" class="form-label">Имя</label>
+                    <input type="name" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="md-3">
+                      <label>Оставьте заявку на нашем сайте и в ближайшее время с вами свяжется наш специалист</label>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+              <button type="button" class="btn btn-primary">Отправить</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
 <!--Вторая шапка-->
 
@@ -63,7 +92,7 @@
                     <a href="#" class="nav-link" style="color: white;">Контакты</a>
                 </li>
                 <div class="col" id="button2">
-                    <button type="button" class="btn btn-primary" style="background-color: white; color: #0DBC91;">Записаться на прием</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: white; color: #0DBC91;">Записаться на прием</button>
                 </div>
             </ul>
         </div>
@@ -160,5 +189,7 @@
         </div>
     </div>
 </footer>
+
+
         
 </html>
